@@ -1,0 +1,48 @@
+@import "../base/vars";
+.section-hero{
+  .navbar-hero{
+    .logo-part{
+      .logo{
+        .rectangle-one,.rectangle-two{
+          position: absolute;
+          width: 32px;
+          height: 32px;
+          border-radius: 4px 4px 24px 4px;
+        }
+        .rectangle-one{
+          left: 120px;
+          top: 45px;
+          background: #F59E0B;
+        }
+        .rectangle-two{
+          left: 124px;
+          top: 49px;
+          background: #4BE4C9;
+        }
+      }
+      title{
+
+      }
+    }
+    .btn{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 8px 16px;
+      gap: 10px;
+
+      width: 96px;
+      height: 34px;
+
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 32px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}

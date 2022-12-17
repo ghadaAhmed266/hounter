@@ -1,0 +1,22 @@
+/* Core variables */
+@import 'base/vars';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Mixins, helpers and functions */
+@import 'base/mixins';
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/* Components */
+
+/* Demo Page styles */
+@import './components/_vectors';
+@import './components/_header';
+@import './components/_home';
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body{position: relative;}
+.vector{
+    position: absolute;
+    width: 438px;
+    height: 494px;
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(90deg);
+}
+.vector-top{
+    position: absolute;
+    left: -173px;
+    top: -162px;
+    .vector-top-relative{
+        position: relative;
+        width: 741px;
+        height: 523px;
+    }
+}
+.vector-top-first{
+    left: 0;
+    bottom: 0;
+    background: #82F7FF;
+}
+.vector-top-second{
+    right: 0;
+    top: 0;
+    background: #82FFD2;
+}
