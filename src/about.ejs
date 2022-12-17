@@ -2,25 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Converted.In</title>
+    <title>app</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="converted.in">
-    <% const meta = require('./i18n/en.json') %>
 
   </head>
   <body>
   <%- include('./components/header.ejs') %>
 
-  <br>
-Hello from about page
-  <br>
-  <%- include('./components/information.ejs') %>
-<button class="btn btn-danger">remove</button>
-  <br>
-
-<%- include('./components/footer.ejs', meta) %>
+<%- include('./components/footer.ejs') %>
 
   </body>
 </html>
