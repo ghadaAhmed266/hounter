@@ -14,6 +14,18 @@
 @import './components/_vectors';
 @import './components/_header';
 @import './components/_home';
+@font-face {
+    font-family: Lexend;
+    src: url(../fonts/Lexend.ttf);
+  }
+body{
+    position: relative;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+ }
 
 
 

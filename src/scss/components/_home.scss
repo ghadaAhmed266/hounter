@@ -1,48 +1,62 @@
 @import "../base/vars";
 .section-hero{
+  position: relative;
+  display: flex;
   .navbar-hero{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px auto 120px;
+    width:calc(100% - 240px);
     .logo-part{
+      display: flex;
+      align-items: center;
       .logo{
+        position: relative;
+        padding-right:12px ;
         .rectangle-one,.rectangle-two{
-          position: absolute;
           width: 32px;
           height: 32px;
           border-radius: 4px 4px 24px 4px;
         }
         .rectangle-one{
-          left: 120px;
-          top: 45px;
           background: #F59E0B;
         }
-        .rectangle-two{
-          left: 124px;
-          top: 49px;
+        .rectangle-two{ 
+          position: absolute;
+          left: 4px;
+          top: 4px;
           background: #4BE4C9;
         }
       }
-      title{
-
+      .title-text{
+        color: #1B1C57;
+        font-size: 16px;
       }
     }
-    .btn{
+    .navbar-buttons{
       display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 8px 16px;
-      gap: 10px;
-
-      width: 96px;
-      height: 34px;
-
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 32px;
-
-      /* Inside auto layout */
-
-      flex: none;
-      order: 0;
-      flex-grow: 0;
+      .btn{
+        margin-right: 24px;
+        padding: 8px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 32px;
+        color: #F0F3FD;
+        background: rgba(255, 255, 255, 0.1);
+        line-height: 18px;
+      }
+      .btn-sign{
+        margin-left: 32px;
+        padding: 12px 24px;
+        border: 0;
+        border-radius: 32px;
+        color: #047857;
+        background: #D1FAE5;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+      }
     }
   }
 }
