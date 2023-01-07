@@ -11,9 +11,13 @@
 /* Components */
 
 /* Demo Page styles */
+@import './owl.carousel.min';
+@import './owl.theme.default.min';
 @import './components/_vectors';
+@import './components/_logos';
 @import './components/_header';
 @import './components/_home';
+@import './components/_footer';
 @font-face {
     font-family: Lexend;
     src: url(../fonts/Lexend.ttf);
@@ -26,7 +30,74 @@ body{
     font-size: 14px;
     line-height: 22px;
  }
-
+*{
+  box-sizing:border-box;
+}
+section{
+  margin:0 120px 120px 120px;
+  .logo{
+    position: relative;
+    padding-right:12px ;
+    .rectangle-one,.rectangle-two{
+      width: 32px;
+      height: 32px;
+      border-radius: 4px 4px 24px 4px;
+    }
+    .rectangle-one{
+      background: #F59E0B;
+    }
+    .rectangle-two{ 
+      position: absolute;
+      left: 4px;
+      top: 4px;
+      background: #4BE4C9;
+    }
+  }
+  .btn{
+    padding: 12px 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+  }
+  .btn-default{
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 32px;
+    color:#FFFFFF;
+    background: #10B981;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .section-rectangle{
+    margin-right: 8px;
+    width: 32px;
+    height: 1px;
+    background: #F59E0B;
+  }
+  .section-comment{
+    color: #F59E0B;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+  .section-title{
+    margin:12px 0 0 40px;
+    color: #1B1C57;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+  p{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888B97;
+  }
+}
 
 
 
