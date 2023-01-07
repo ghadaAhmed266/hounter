@@ -3,4 +3,31 @@
   footer{
     margin:0 120px 120px ;
     display: flex;
+    span{
+      color: #888B97;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .about{
+      p{margin: 16px 0 30px;}
+      .icons{
+        svg{margin-right: 34px;}
+      }
+    }
+    .menus{
+      display: flex;
+      justify-content: space-between;
+      div{
+        display: flex;
+        flex-direction: column;
+        gap:18px;
+        .title
+        {
+          margin-bottom: 6px;
+          color: #0E1735;
+          font-size: 18px;
+        }
+      }
+    }
   }
