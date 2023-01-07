@@ -1,4 +1,3 @@
-
 .vector{
     position: absolute;
     width: 438px;
@@ -6,24 +5,42 @@
     opacity: 0.3;
     filter: blur(60px);
     transform: rotate(90deg);
+} 
+.vector-relative{
+    position: relative;
+    width: 741px;
+    height: 523px;
 }
-.vector-top{
-    position: absolute;
-    left: -173px;
-    top: -162px;
-    .vector-top-relative{
-        position: relative;
-        width: 741px;
-        height: 523px;
-    }
-}
-.vector-top-first{
+.vector-first{
     left: 0;
     bottom: 0;
-    background: #82F7FF;
 }
-.vector-top-second{
+.vector-second{
     right: 0;
     top: 0;
-    background: #82FFD2;
 }
+.vector-top{
+    left: -173px;
+    top: -162px;
+    .vector-first{background: #82F7FF;}
+    .vector-second{background: #82FFD2;}
+}
+.vector-left{
+    left: -173px;
+    top: 80%;
+    .vector-first{background: #82FFE8;}
+    .vector-second{background: #C8FF82;}
+}
+.vector-right{
+    right: -173px;
+    top: 40%;
+    .vector-first{background: #FF9882;}
+    .vector-second{background: #FFFA82;}
+}
+.vector-bottom{
+    right: -173px;
+    bottom: -162px;
+    .vector-first{background: #82BBFF;}
+    .vector-second{background: #B9FF82;}
+}
+
