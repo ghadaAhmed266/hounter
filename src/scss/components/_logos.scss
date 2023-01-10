@@ -17,4 +17,11 @@
       background: #4BE4C9;
     }
   }
-  
+  .logo-part{
+    display: flex;
+    align-items: center;
+    .title-text{
+      color: #1B1C57;
+      font-size: 16px;
+    }
+  }

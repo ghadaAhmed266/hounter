@@ -1,3 +1,6 @@
+.vectors{
+    position: absolute;
+}
 .vector{
     position: absolute;
     width: 438px;
@@ -8,38 +11,55 @@
 } 
 .vector-relative{
     position: relative;
-    width: 741px;
-    height: 523px;
+    width: 100%;
+    height: 100%;
 }
 .vector-first{
+    right: 0;
+    top: 0;
+    
+}
+.vector-second{
     left: 0;
     bottom: 0;
 }
-.vector-second{
-    right: 0;
-    top: 0;
-}
 .vector-top{
-    left: -173px;
-    top: -162px;
+    width: 485px;
+    height: 417px;
+    left: -120px;
+    top: 0;
+    .vector-second{
+        right: 200px;
+        bottom: 0;
+    }
     .vector-first{background: #82F7FF;}
     .vector-second{background: #82FFD2;}
 }
 .vector-left{
-    left: -173px;
-    top: 80%;
+    width: 296px;
+    height: 769px;
+    left:-120px;
+    top: 60%;
+    .vector-second{
+        right: 28px;
+        bottom: 0;
+    }
     .vector-first{background: #82FFE8;}
     .vector-second{background: #C8FF82;}
 }
 .vector-right{
-    right: -173px;
-    top: 40%;
+    width: 344px;
+    height: 616px;
+    right: -120px;
+    top: 35%;
     .vector-first{background: #FF9882;}
     .vector-second{background: #FFFA82;}
 }
 .vector-bottom{
-    right: -173px;
-    bottom: -162px;
+    width: 484px;
+    height: 443px;
+    right: -120px;
+    bottom: -120px;
     .vector-first{background: #82BBFF;}
     .vector-second{background: #B9FF82;}
 }

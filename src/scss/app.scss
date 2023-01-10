@@ -14,10 +14,11 @@
 @import './owl.carousel.min';
 @import './owl.theme.default.min';
 @import './components/_vectors';
-@import './components/_logos';
 @import './components/_header';
 @import './components/_home';
 @import './components/_footer';
+@import './components/_logos';
+@import './components/_media-queries';
 @font-face {
     font-family: Lexend;
     src: url(../fonts/Lexend.ttf);
@@ -29,6 +30,7 @@ body{
     font-weight: 600;
     font-size: 14px;
     line-height: 22px;
+    overflow-x: hidden;
  }
 *{
   box-sizing:border-box;

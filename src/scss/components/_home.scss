@@ -1,11 +1,10 @@
 @import "../base/vars";
-
-
 //start section hero
 .section-hero{
   position: relative;
   margin-right: 0;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   .navbar-hero{
@@ -16,14 +15,7 @@
     align-items: center;
     width:calc(100% - 120px);
     z-index: 9999;
-    .logo-part{
-      display: flex;
-      align-items: center;
-      .title-text{
-        color: #1B1C57;
-        font-size: 16px;
-      }
-    }
+    
     .navbar-buttons{
       display: flex;
       gap:56px;
@@ -93,7 +85,7 @@
     height: 720px;
     border-radius: 0px 0px 0px 80px;
     background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%),url(../images/design/image\ 6.png);
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;
     .frames{
