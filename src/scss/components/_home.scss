@@ -18,7 +18,8 @@
     
     .navbar-buttons{
       display: flex;
-      gap:56px;
+      justify-content: space-between;
+      width: 48%;
       .buttons{display: flex;gap:24px}
       .btn{
         padding: 8px 16px;
@@ -41,7 +42,8 @@
   }
   .title-search{
     margin-right: 120px;
-    width: 496px;
+    width:47%;
+    max-width: 496px;
     .img-title{margin-bottom: 24px;}
     .title-paragraph{
       color: #626687;
@@ -82,7 +84,7 @@
   .img-frames{
     position: relative;
     flex-grow: 1;
-    height: 720px;
+    height: 640px;
     border-radius: 0px 0px 0px 80px;
     background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%),url(../images/design/image\ 6.png);
     background-size:cover;
@@ -296,6 +298,9 @@
     .contact{
       display: flex;
       align-items: center;
+      align-items: center;
+      flex-wrap: wrap;
+      row-gap: 20px;
       p{margin:4px 0 0 0;}
       img{border-radius: 50%;width: 56px;height: 56px;margin-right: 16px;}
       .btn-default{margin-left: 60px;font-size: 14px;svg{margin-right: 20px;}}
@@ -474,15 +479,15 @@
     img{position: absolute;}
     img:nth-of-type(1){top:13%;left: 6%;}
     img:nth-of-type(2){top:20%;left: 20%;}
-    img:nth-of-type(3){bottom:22%;left: 7%;}
-    img:nth-of-type(4){bottom:14%;left: 20%;}
+    img:nth-of-type(3){bottom:22%;left: 5%;}
+    img:nth-of-type(4){bottom:14%;left: 14%;}
   }
   .subscribe-imgs-2{
     img{position: absolute;}
-    img:nth-of-type(1){top:15%;left: 70%;}
-    img:nth-of-type(2){top:30%;left: 85%;}
-    img:nth-of-type(3){bottom:40%;left: 72%;}
-    img:nth-of-type(4){bottom:14%;left: 85%;}
+    img:nth-of-type(1){top:15%;left: 77%;}
+    img:nth-of-type(2){top:30%;left: 90%;}
+    img:nth-of-type(3){bottom:35%;left: 80%;}
+    img:nth-of-type(4){bottom:14%;left: 92%;}
   }
   .search-box{
     width: 496px;

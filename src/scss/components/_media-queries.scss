@@ -1,10 +1,73 @@
-@media only screen and (max-width: 768px) {
+@media (min-width:992px) and (max-width:1440px) {
+    section{
+        margin: 0 60px 60px 60px;
+    }
     .section-hero{
-        flex-direction: column;
-        justify-content: center;
-        .navbar-hero{ .navbar-buttons{.btn{display: none;}}}
-        .img-frames{
-            border-radius: 80px;
+        .navbar-hero 
+        {
+            width: calc(100% - 20px);
+           // .navbar-buttons .btn {display: none;}
         }
+        .title-search {
+            margin-right: 60px;
+        }
+    }
+    .section-sell .house-info .contact .btn-default {
+        margin-left: 10px;
+    }
+    .section-featured
+    { 
+        .navbar-featured{
+        margin-right: 20px;
+        }
+        .section-featured .carousel .slide {
+            width: 36.5%;
+        }
+    }
+    .section-subscribe {
+        width: calc(100% - 120px);
+    }
+    .footer .menus {
+        width: 60%;
+    }
+}
+@media  (max-width:991px) {
+    section{
+        margin: 0 30px 60px 30px;
+    }
+    .section-hero{
+        
+        flex-direction: column;
+        align-items: center;
+        .navbar-hero{ .navbar-buttons{.btn{display: none;}}}
+        .title-search {
+            margin: 120px 0 60px;
+        }
+        .img-frames{
+            border-radius: 0 80px;
+            width: calc(100% - 100px);
+        }
+    }
+    .section-featured 
+    {
+        .navbar-featured .navbar-buttons {
+            display:none;}
+        .carousel .slide {
+            width: 46.5%;
+        }
+    }
+    .section-sell {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .section-tips .tips{
+        
+    align-items: center;
+    flex-direction: column;
+    }
+    .section-subscribe {
+        width: calc(100% - 60px);
+       
     }
 }
