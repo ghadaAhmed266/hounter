@@ -5,6 +5,8 @@ import '../scss/app.scss';
 /* Demo JS */
 import './demo.js';
 
+import './jquery.min.js';
+import './owl.carousel.min.js';
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel();
   });
@@ -19,5 +21,3 @@ $(document).ready(function(){
         }
     }
 });
-
-  import './owl.carousel.min.js';

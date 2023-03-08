@@ -309,6 +309,8 @@
   }
   .house-imgs{
     position: relative;
+    max-width: 100%;
+    img{max-width: 100%;}
     .menu{
       position: absolute;
       bottom: -43px;

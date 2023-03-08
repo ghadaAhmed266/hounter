@@ -1,6 +1,6 @@
 @media (min-width:992px) and (max-width:1440px) {
     section,.footer{
-        margin: 0 60px 60px 60px;
+        margin: 0 60px 120px 60px;
     }
     .section-hero{
         .navbar-hero 
@@ -86,19 +86,25 @@
     }
 }
 @media (min-width:577px) and (max-width:880px) {
-    .section-subscribe{ .subscribe-imgs-1 {
-        img:nth-of-type(1){top:2%;left:1%}
-        img:nth-of-type(2),img:nth-of-type(4){display:none}
-        img:nth-of-type(3){bottom:5%}
-      }
-      .subscribe-imgs-2{
-        img:nth-of-type(1),img:nth-of-type(3){display:none}
-        img:nth-of-type(4){bottom: 6%;left: 80%;}
-      }
+    .section-subscribe{ 
+        .subscribe-imgs-1 {
+            img:nth-of-type(1){top:2%;left:1%}
+            img:nth-of-type(2),img:nth-of-type(4){display:none}
+            img:nth-of-type(3){bottom:5%}
+        }
+       .subscribe-imgs-2{
+            img:nth-of-type(1),img:nth-of-type(3){display:none}
+            img:nth-of-type(4){bottom: 6%;left: 80%;}
+        }
     }
 }
 
-@media screen and  (max-width:576px) {
+@media  (max-width:576px) {
+    .vectors{
+        height: 4%;
+    }
+    .vector-right{top:44%}
+    .vector-left{top:56%}
     section{.section-title{font-size: 22px;}}
     .section-hero {
         .img-title{ width: 90%;}
@@ -122,6 +128,10 @@
             .slide {
             width: 100%;
         }}
+    }
+    .section-sell .house-imgs .menu {
+        max-width: 100%;
+        img{max-width: 50%;}
     }
     .section-tips {
         .tips .tip{
