@@ -1,7 +1,4 @@
 <!--start section hero-->
-<div class="owl-carousel">
-    <div>content</div><div>content</div><div>content</div><div>content</div><div>content</div><div>content</div><div>content</div><div>content</div><div>content</div>
-</div>
 <section class="section-hero">
     <div class="navbar-hero">
         <%- include('./logos.ejs') %>
@@ -107,7 +104,8 @@
                 Apartment
             </button>
         </div>
-        <div class="navbar-arrows">
+        <div class="navbar-arrows owl-nav">
+           
             <button class="btn btn-arrow-right">
                 <span>
                     <svg width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -125,8 +123,11 @@
         </div>
     </div>
     <!--carousel-->
-    <div class="carousel">
-        <div class="slide">
+    <div class="owl-carousel owl-carousel-featured owl-theme owl-loaded loop">
+           
+        
+        <div class="owl-stage-outer"><div class="owl-stage">
+            <div class="slide-one owl-item active">
             <div class="img-box">
                 <img src="images/design/img-rose.png">
                 <div class="message-box">
@@ -149,7 +150,7 @@
             </div>
         </div>
 
-        <div class="slide">
+        <div class="slide-two  owl-item">
             <div class="img-box">
                 <img src="images/design/Img-wood.png">
                 <div class="message-box">
@@ -172,7 +173,7 @@
             </div>
         </div>
 
-        <div class="slide">
+        <div class="slide-three  owl-item">
             <div class="img-box">
                 <img src="images/design/Img-light.png">
                 <div class="message-box">
@@ -195,7 +196,7 @@
             </div>
         </div>
 
-        <div class="slide">
+        <div class="slide-four  owl-item">
             <div class="img-box">
                 <img src="images/design/Img-wood.png">
                 <div class="message-box">
@@ -217,7 +218,10 @@
                 </div>
             </div>
         </div>
+       
     </div>
+</div>
+</div>
 </section>
 <!--//end section featured-->
 
@@ -309,14 +313,9 @@
     <div class="section-rectangle"></div>
     <div class="section-comment">see our review</div>
     <div class="section-title">what our user say about us</div>
-    <div class="owl-carousel owl-theme owl-loaded loop">
-        <div class="owl-dots">
-            <div class="owl-dot "><span></span></div>
-            <div class="owl-dot active"><span></span></div>
-            <div class="owl-dot"><span></span></div>
-        </div>
+    <div class="owl-carousel owl-carousel-review owl-theme owl-loaded loop">
         <div class="owl-stage-outer"><div class="owl-stage">
-            <div class="owl-item">
+            <div class="owl-item active">
                 <img class="" src="images/design/img-house-2.png" alt="First slide">
                 <div class="slide-content">
                     <div class="slide-title">
@@ -338,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-item active">
+            <div class="owl-item ">
             <img class="" src="images/design/img-house-2.png" alt="Second slide">
             <div class="slide-content">
                 <div class="slide-title">

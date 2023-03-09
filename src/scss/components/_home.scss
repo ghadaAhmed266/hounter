@@ -188,15 +188,16 @@
         width: 28px;
       }
       .btn-arrow-right{background: #E0E3EB;}
+      .btn-default:hover{background: #E0E3EB;}
     }
   }
   //carousel
-  .carousel{
+  .owl-carousel-featured{
     margin:40px 0 0 40px;
-    display: -webkit-box;
-    overflow: hidden;
-    gap:32px;
-    .slide{
+    //display: -webkit-box;
+    //overflow: hidden;
+    //gap:32px;
+    .owl-item{
       width: 26.5%;
       display: flex;
       flex-direction: column;
@@ -231,25 +232,26 @@
         display: flex;
         align-items: center;
         gap:16px;
-        img{border-radius: 50%;}
+        img{border-radius: 50%;width: auto;}
         .img-name{
           font-size: 18px;
           line-height: 24px;
         }
       }
     }
-    .slide:nth-of-type(1),.slide:nth-of-type(4){
+    .slide-one,.slide-four{
       .message-box{
         color: #EF4444;
         background: #FEE2E2;
       }
     }
-    .slide:nth-of-type(2){
+    .slide-two{
       .message-box{
         color: #1D4ED8;        
         background: #DBEAFE;
       }
-    }.slide:nth-of-type(3){
+    }
+    .slide-three{
       .message-box{
         color: #047857;
         background: #D1FAE5;
@@ -342,31 +344,19 @@
   margin-left: 0;margin-right:0;
   .section-rectangle{margin-bottom: 8px;}
   .section-title{margin:16px 0 40px 0;}
-  .owl-carousel{
-    display: flex;
-    .owl-dots{
-      position: absolute;
-      width: 100%;
-      bottom: -10px;
-      .owl-dot span{
-        height: 8px;
-        width: 8px;
-        border-radius: 50%;
-        background: #E0E3EB;
-        opacity: 1;
-        margin-right: 16px;
-      }
-      .active span{background: #3C4563;}
+  .owl-theme .owl-dots{
+    margin-top: 100px!important;
+    .owl-dot span {
+      border-radius: 50%;
+      background: #E0E3EB;
+      opacity: 1;
+      margin-right: 16px;
     }
-    .owl-stage-outer{
-      overflow-x: hidden;
-  }.owl-stage{    
-      width: max-content;
-      height: 505px;
-      margin-left: -11%;
-    }
+    .owl-dot.active span{background: #3C4563;} 
+  }
+  .owl-carousel-review{
+    .owl-stage-outer{overflow: visible;}
     .owl-item{
-      margin-right: 56px;
       position:sticky;
       .slide-content{
         position: absolute;

@@ -55,17 +55,17 @@
         }
     }
     .section-featured 
-    {.carousel {margin-left: 0;}
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+        .owl-carousel-featured {margin-left: 0;}
         .navbar-featured{
             margin-right: 30px;
             .navbar-buttons {
             display:none;}
         }
-        .carousel .slide {
-            width: 46.5%;
-        }
     }
-    .section-review{display: none;}
+    //.section-review{display: none;}
     .section-sell {
         flex-direction: column;
         align-items: center;

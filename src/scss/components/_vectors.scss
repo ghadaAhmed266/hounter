@@ -3,6 +3,7 @@
     position: absolute;
     width: 40%;
     height: 10%;
+    z-index: -1;
 }
 .vector{
     position: absolute;
@@ -35,7 +36,7 @@
 }
 .vector-left{
     left:0;
-    top: 66%;
+    top: 60%;
     .vector-first{background: #82FFE8;}
     .vector-second{background: #C8FF82;}
 }

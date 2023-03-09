@@ -1,8 +1,8 @@
 {
   "author": "MS.Ghada",
-  "name": "House-Hunter",
+  "name": "house-hunter",
   "version": "5.13.0",
-  "description": "",
+  "description": "![Maintenance](https://img.shields.io/maintenance/yes/2022?logo=github)\r ![webpack-current](https://img.shields.io/badge/webpack-v5.72.0-green?logo=webpack)\r ![node-current (scoped)](https://img.shields.io/node/v/@weareathlon/frontend-webpack-boilerplate)\r [![Build Status](https://app.travis-ci.com/WeAreAthlon/frontend-webpack-boilerplate.svg?branch=master)](https://app.travis-ci.com/github/WeAreAthlon/frontend-webpack-boilerplate)\r [![@weareathlon/frontend-webpack-boilerplate](https://snyk.io/advisor/npm-package/@weareathlon/frontend-webpack-boilerplate/badge.svg)](https://snyk.io/advisor/npm-package/@weareathlon/frontend-webpack-boilerplate)\r [![Known Vulnerabilities](https://snyk.io/test/github/WeAreAthlon/frontend-webpack-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/WeAreAthlon/frontend-webpack-boilerplate?targetFile=package.json)\r [![GitHub License](https://img.shields.io/github/license/WeAreAthlon/frontend-webpack-boilerplate)](https://github.com/WeAreAthlon/frontend-webpack-boilerplate/blob/master/LICENSE)",
   "browserslist": [
     "last 2 versions",
     "> 5%"
@@ -36,6 +36,7 @@
     "json-loader": "^0.5.7",
     "mini-css-extract-plugin": "^2.4.4",
     "owl-carousel": "^1.0.0",
+    "owl.carousel": "^2.3.4",
     "postcss": "^8.3.11",
     "postcss-loader": "^6.2.0",
     "sass": "^1.50.1",
@@ -71,5 +72,7 @@
   "dependencies": {
     "bootstrap": "^5.1.3",
     "underscore": "^1.13.3"
-  }
+  },
+  "main": "postcss.config.js",
+  "keywords": []
 }
