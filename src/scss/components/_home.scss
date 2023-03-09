@@ -345,7 +345,7 @@
   .section-rectangle{margin-bottom: 8px;}
   .section-title{margin:16px 0 40px 0;}
   .owl-theme .owl-dots{
-    margin-top: 100px!important;
+    margin-top: 32px!important;
     .owl-dot span {
       border-radius: 50%;
       background: #E0E3EB;
@@ -355,13 +355,16 @@
     .owl-dot.active span{background: #3C4563;} 
   }
   .owl-carousel-review{
-    .owl-stage-outer{overflow: visible;}
     .owl-item{
       position:sticky;
+      .content-container{
+        height: 100px;
+        position: relative;
+      }
       .slide-content{
         position: absolute;
-        bottom: -105px;
-        margin: 46px;
+        bottom: 0px;
+        margin: 46px 46px 0;
         padding: 32px;
         background: #ffffff;
         box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
